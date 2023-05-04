@@ -1,0 +1,83 @@
+@import "../../App.scss";
+
+#hero {
+    .main_container {
+        background: url("../../assets/factory.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-block: 2rem;
+        padding-bottom: 6rem;
+        .content {
+            max-width: 500px;
+            * {
+                color: $__container_color;
+            }
+            h1 {
+                margin-block: 2rem;
+                font-weight: bolder;
+            }
+            h2 {
+                font-weight: 400;
+            }
+            button {
+                margin: 2rem 0;
+                background: $__main_color;
+                font-size: 1.2em;
+                padding: .5rem 1rem;
+                border: none;
+                border-radius: 5px;
+            }
+        }
+    }
+
+    .services {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        width: fit-content;
+        max-width: fit-content;
+        margin: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-inline: 8%;
+        bottom: 6rem;
+        gap: 0;
+        .card {
+            width: 50%;
+            //min-width: 400px;
+            //max-width: 600px;
+            padding: 1rem;
+            height: inherit;
+            margin: 0 auto;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            .desc {
+                h2 {
+                    text-transform: capitalize;
+                    margin-bottom: 1rem;
+                }
+            }
+            &:first-child {
+                background-color: $__container_color;
+            }
+            &:last-child {
+                background-color: $__second_color;
+                * {
+                    color: $__container_color;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 940px) {
+    #hero {
+        .services {
+            width: 100%;
+            .card {
+                width: 100%;
+            }
+        }
+    }
+}
