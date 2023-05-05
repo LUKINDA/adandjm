@@ -6,19 +6,27 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        padding-block: 2rem;
-        padding-bottom: 6rem;
+        //padding-block: 2rem;
+        //padding-bottom: 6rem;
         .content {
-            max-width: 500px;
+            width: 100%;
+            background: rgb(1,47,60);
+            background: linear-gradient(90deg, rgba(1,47,60,1) 0%, rgba(2,64,82,1) 35%, rgba(6,36,42,0) 100%);
+            padding-block: 2rem;
+            padding-bottom: 6rem;
+            padding-inline: 8%;
             * {
                 color: $__container_color;
             }
             h1 {
                 margin-block: 2rem;
                 font-weight: bolder;
+                max-width: 500px;
             }
-            h2 {
+            h3 {
                 font-weight: 400;
+                max-width: 500px;
+                line-height: 2rem;
             }
             button {
                 margin: 2rem 0;
@@ -44,6 +52,7 @@
         padding-inline: 8%;
         bottom: 6rem;
         gap: 0;
+        max-width: 1420px;
         .card {
             width: 50%;
             //min-width: 400px;

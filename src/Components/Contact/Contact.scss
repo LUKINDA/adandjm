@@ -48,6 +48,11 @@
                     width: fit-content;
                     float: right;
                     padding-inline: 1rem;
+                    background: $__main_color;
+                    color: $__container_color;
+                    &:hover {
+                        background: $__second_color;
+                    }
                 }
             }
         }

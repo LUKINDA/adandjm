@@ -4,13 +4,13 @@ import './Main.scss'
 const Main = () => {
   return (
     <div id='hero'>
-      <div className="container main_container">
+      <div className="main_container">
         <div className="content">
             <h1>LE TRAVAIL D’INGENIERIE EST CE QUE NOUS CONNAISSONS LE MIEUX</h1>
-            <h2>AD & JM SARL fournit des technologies et des solutions innovantes aux
+            <h3>AD & JM SARL fournit des technologies et des solutions innovantes aux
                 projets d’ingénierie, de construction, industriels et miniers en mettant
                 l’accent sur la sécurité, l’environnement, la qualité et la productivité.
-            </h2>
+            </h3>
             <button className="expore">voir plus</button>
         </div>
       </div>

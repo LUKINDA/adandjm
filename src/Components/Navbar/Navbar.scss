@@ -24,6 +24,9 @@
                 background-color: $__second_color;
             }
         }
+        .menu-icon {
+            display: none;
+        }
     }
 
     .bottom {
@@ -44,11 +47,42 @@
 
 @media screen and (max-width: 545px) {
     .navbar_container {
+        .top {
+            .menu-icon {
+                display: block;
+                background-color: $__main_color;
+                * {
+                    font-size: 2.5em;
+                    color: $__container_color;
+                }
+            }
+        }
         .right {
             display: none;
         }
         .bottom {
-            display: none;
+            display: flex;
+            width: 50%;
+            width: 300px;
+            height: 100dvh;
+            position: absolute;
+            transform: translateX(-100vh);
+            transition: 1s;
+            z-index: 1;
+            background-color: $__container_color;
+            left: 0;
+            top: 0;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            ul {
+                display: flex;
+                flex-direction: column;
+            }
         }
+
+        .responsive_nav {
+            transform: none;
+        }
+
+        
     }
 }

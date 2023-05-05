@@ -1,8 +1,34 @@
-import React from 'react'
+import React, { useRef } from 'react'
+//import { useState } from 'react';
+import { useState } from 'react'; 
 import SendIcon from '@mui/icons-material/Send';
 import './Contact.scss'
 
+import emailjs from '@emailjs/browser';
+
 const Contact = () => {
+
+    const form = useRef();
+
+    const [isSent, setIsSent] = useState(false);
+    const [buttonText, setButtonText] = useState('Envoyer');
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_50mg4ro', 'template_caz87j4', form.current, 'mmrRUOw1rRVK9vGID')
+        .then((result) => {
+                setIsSent(true);
+                setButtonText('Envoyé');
+                setTimeout(() => {
+                    setIsSent(false);
+                    setButtonText('Envoyer');
+                }, 3000);
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
+
   return (
     <div className='contact_container'>
        <div className="left">
@@ -27,20 +53,20 @@ const Contact = () => {
             </div>
        </div>
        <div className="right">
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
             <h2>Nous contacter</h2>
             <div className="top">
                 <input type="text" name="user_name" id="" placeholder='Nom' />
-                <input type="text" name="user_lastname" id="" placeholder='Post Nom'/>
+                <input type="text" name="user_email" id="" placeholder='Address Email'/>
             </div>
             <div className="middle">
                 <input type="text" name="user_subject" id="" placeholder='Subject'/>
             </div>
             <div className="bottom">
-                <textarea name="user_message" id="" cols="30" rows="7" placeholder='Message'></textarea>
+                <textarea name="message" id="" cols="30" rows="7" placeholder='Message'></textarea>
             </div>
             <div className='button'>
-                <input type="submit" value="Envoy" />
+                <input type="submit" value={buttonText} style={isSent ? { backgroundColor: 'green' } : {}} />               
             </div>
         </form>
        </div>
