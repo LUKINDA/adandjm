@@ -1,4 +1,6 @@
 import React, { useRef, useState } from 'react';
+import { Link } from 'react-router-dom';
+
 import './Navbar.scss';
 import logo from '../../assets/logo.png';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -26,7 +28,9 @@ const Navbar = () => {
           <img src={logo} alt='' />
         </div>
         <div className='right'>
+          <Link to={'/contact'}>
           <button>Contact us</button>
+          </Link>
         </div>
         <div className='menu-icon toggle' onClick={showNavbar}>
           {showNavbar ? <MenuIcon />: <CloseIcon />}
@@ -35,16 +39,16 @@ const Navbar = () => {
       <div className='bottom manu' id='menu' ref={navRef}>
         <ul>
           <li>
-            <a href='#'>Home</a>
+            <a href='#hero'>Home</a>
           </li>
           <li>
-            <a href='#'>About</a>
+            <a href='#about'>About</a>
           </li>
           <li>
-            <a href='#'>Services</a>
+            <a href='#services'>Services</a>
           </li>
           <li>
-            <a href='#'>Contact</a>
+            <a href='#contact'>Contact</a>
           </li>
         </ul>
       </div>

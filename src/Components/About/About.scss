@@ -29,6 +29,9 @@
             border-radius: 5px;
             background: $__main_color;
             color: $__container_color;
+            &:hover {
+                background: $__second_color;
+            }
         }
     }
 

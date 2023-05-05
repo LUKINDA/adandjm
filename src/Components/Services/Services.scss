@@ -29,6 +29,9 @@
             background-color: $__main_color;
             color: $__container_color;
             height: fit-content;
+            &:hover {
+                background: $__second_color;
+            }
         }
     }
 
@@ -48,10 +51,13 @@
             .box {
                 display: flex;
                 flex-wrap: wrap;
+                justify-content: center;
+                gap: 2rem;
                 .card {
                     width: 300px;
                     margin: auto;
-                    //height: 400px;
+                    margin: 0;
+                    height: fit-content;
                     .image {
                         overflow: hidden;
                     }
@@ -128,6 +134,13 @@
             //flex-wrap: wrap;
            // height: 500px;
             padding: 2rem 8%;
+            background: linear-gradient(rgba(0, 18, 24, 0.9), rgba(0, 18, 24, 0.9)), url("../../assets/materiel.jpeg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            * {
+                color: $__container_color;
+            }
             .left {
                 width: 100%;
                 min-width: 300px;

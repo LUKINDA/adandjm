@@ -1,6 +1,9 @@
 import React from 'react'
 import './Main.scss'
 
+import target from '../../assets/target.png'
+import mission from '../../assets/vision.png'
+
 const Main = () => {
   return (
     <div id='hero'>
@@ -16,7 +19,9 @@ const Main = () => {
       </div>
       <div className="services">
         <div className="card">
-            <div className="icon"></div>
+            <div className="icon">
+              <img src={target} alt="" />
+            </div>
             <div className="desc">
             <h2>mission</h2>
             <p>Notre mission est d’être l’une des sociétés
@@ -29,7 +34,9 @@ et livrés dans des délais raisonnables.</p>
             </div>
         </div>
         <div className="card">
-            <div className="icon"></div>
+            <div className="icon">
+              <img src={mission} alt="" />
+            </div>
             <div className="desc">
             <h2>vision</h2>
             <p>La vision d’AD & JM est de s’engager à offrir les meilleurs produits et services, sur les

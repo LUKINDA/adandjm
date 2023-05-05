@@ -21,6 +21,7 @@ const Contact = () => {
                 setIsSent(true);
                 setButtonText('Envoyé');
                 setTimeout(() => {
+                    form.current.reset();
                     setIsSent(false);
                     setButtonText('Envoyer');
                 }, 3000);
@@ -30,7 +31,7 @@ const Contact = () => {
     };
 
   return (
-    <div className='contact_container'>
+    <div className='contact_container' id='contact'>
        <div className="left">
             <h2>Nos coordonnées</h2>
             <div className="content">

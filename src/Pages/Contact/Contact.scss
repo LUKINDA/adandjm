@@ -1,0 +1,147 @@
+@import "../../App.scss";
+
+.hero {
+    .container {
+        #title {
+            text-align: center;
+            width: 100%;
+            height: 50dvh;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            * {
+                color: white;
+                span {
+                    color: $__main_color;
+                }
+            }
+
+            h3 {
+                margin-bottom: 1rem;
+            }
+        
+        }
+        
+    }
+    .detais_container {
+        background-image: linear-gradient(rgba(0, 18, 24, 0.9), rgba(0, 18, 24, 0.9)),url('../../assets/contact.jpeg') ;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .project_container {
+        display: flex;
+        flex-direction: column;
+        padding-inline: 8%;
+        .title {
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        .project_details {
+            display: grid;
+            grid-template-columns: 40% repeat(1, 1fr);
+            gap: 24px;
+
+            .note, .form {
+                h3 {
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    margin-bottom: 1rem;
+                }
+            }
+
+            .form {
+                width: 100%;
+                
+                form {
+                    width: 100%;
+                    display: grid;
+                    gap: 12px;
+                    .flex {
+                        display: grid;
+                        grid-template-columns: repeat(2, 1fr);
+                        gap: 12px;
+                    }
+                    .input {
+                        width: 100%;
+                        display: flex;
+                        //border: 1px solid $--hover-color;
+                        padding: .5rem;
+                        border-radius: 20px;
+                        //background: $--container-color;
+                        i {
+                            //color: $--hover-color;
+                            margin-right: .2rem;
+                        }
+                        
+                        input, textarea {
+                            width: 100%;
+                            border: none;
+                            outline: none;
+                            resize: none;
+                            background-color: transparent;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    form {
+        input, textarea {
+            width: 100%;
+            padding: 1rem;
+            //margin: 1rem 0;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 10px;
+            outline: none;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            background: $__container_color !important;
+        }
+        .top {
+            display: flex;
+            gap: 1rem;
+        }
+        .button {
+            input {
+                width: fit-content;
+                float: right;
+                cursor: pointer;
+                padding-inline: 1rem;
+                background: $__main_color !important;
+                color: $__container_color;
+                &:hover {
+                    background: $__second_color !important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+ .project_container {
+    .project_details {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) !important;
+     } 
+ }
+}
+
+@media  screen and (max-width: 575px) {
+    .project_container {
+       .project_details {
+           .form {
+            form {
+                .flex {
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr) !important;
+                }
+            }
+           }
+        } 
+    }
+   }
+

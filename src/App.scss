@@ -32,3 +32,37 @@ p {
 body {
   background: $__body_color;
 }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 150px;
+}
+
+button {
+  cursor: pointer;
+  &:hover {
+    background: $__second_color;
+  }
+}
+
+.title {
+  text-align: center;
+  padding-block: 2rem;
+  h3 {
+      color: $__text_default_color;
+      text-transform: uppercase;
+      font-size: 2em;
+  }
+
+  h2 {
+      text-transform: uppercase;
+      color: $__main_color;
+      margin: 1rem 0;
+      font-weight: bold;
+      font-size: 2.5em;
+  }
+  h1 {
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+      font-weight: bold;
+  }
+}

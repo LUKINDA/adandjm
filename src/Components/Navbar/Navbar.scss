@@ -2,6 +2,11 @@
 
 .navbar_container {
     display: block;
+    position: sticky;
+    top: 0.1px;
+    background: $__body_color;
+    z-index: 1;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     .top {
         display: flex;
         justify-content: space-between;

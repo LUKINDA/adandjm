@@ -3,7 +3,7 @@ import './About.scss'
 
 const About = () => {
   return (
-    <div className='container about_container'>
+    <div className='container about_container' id='about'>
       <div className="left">
         <h1>A propos de <br /> AD & JM SARL</h1>
         <p>L’entreprise a vu le jour afin de répondre aux

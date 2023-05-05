@@ -9,11 +9,11 @@ import graphite from '../../assets/graphite.jpeg'
 import belts from '../../assets/belt.jpg'
 import piping from '../../assets/piping.jpeg'
 
-import construction from '../../assets/construction.jpeg'
+import construction from '../../assets/construction.jpg'
 
 const Services = () => {
   return (
-    <div className='services_container'>
+    <div className='services_container' id='services'>
       <div className="top">
         <div className="intro">
             <h1>Explorez nos <span>services</span></h1>
