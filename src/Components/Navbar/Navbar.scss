@@ -13,6 +13,9 @@
         align-items: center;
         .left {
             width: 150px;
+            a {
+                width: inherit;
+            }
             img {
                 width: inherit;
             }

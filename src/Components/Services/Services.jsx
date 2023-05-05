@@ -29,25 +29,25 @@ const Services = () => {
                     <div className="image">
                         <img src={pumps} alt="" />
                     </div>
-                    <div className="title"><h3>POMPES À LISIER, ET AUTRES POMPES</h3></div>
+                    <div className="title2"><h3>POMPES À LISIER, ET AUTRES POMPES</h3></div>
                 </div>
                 <div className="card">
                     <div className="image">
                         <img src={crushing} alt="" />
                     </div>
-                    <div className="title"><h3>CONCASSEURS ET EQUIPMENT</h3></div>
+                    <div className="title2"><h3>CONCASSEURS ET EQUIPMENT</h3></div>
                 </div>
                 <div className="card">
                     <div className="image">
                         <img src={concrete} alt="" />
                     </div>
-                    <div className="title"><h3>CONCASSEURS ET EQUIPMENT</h3></div>
+                    <div className="title2"><h3>CONCASSEURS ET EQUIPMENT</h3></div>
                 </div>
                 <div className="card">
                     <div className="image">
                         <img src={graphite} alt="" />
                     </div>
-                    <div className="title"><h3>ÉLECTRODES DE GRAPHITE</h3></div>
+                    <div className="title2"><h3>ÉLECTRODES DE GRAPHITE</h3></div>
                 </div>
             </div>
         </div>

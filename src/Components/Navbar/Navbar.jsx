@@ -25,7 +25,9 @@ const Navbar = () => {
     <div className='container navbar_container'>
       <div className='top'>
         <div className='left'>
-          <img src={logo} alt='' />
+          <Link to={'/'}>
+          <img src={logo} alt='' />  
+          </Link>
         </div>
         <div className='right'>
           <Link to={'/contact'}>
