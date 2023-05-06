@@ -13,7 +13,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding: 2rem 8%;
+        padding: 2rem 4%;
         .intro {
             max-width: 900px;
             h1 {
@@ -42,7 +42,7 @@
             width: 100%;
             display: flex;
             flex-direction: column;
-            padding-inline: 8%;
+            padding-inline: 4%;
             h1 {
                 text-align: center;
                 text-transform: uppercase;
@@ -95,7 +95,7 @@
             flex-direction: row;
             width: 100%;
             background: white;
-            padding: 1rem 8%;
+            padding: 1rem 4%;
             gap: 1rem;
             .box {
                 margin: 2rem auto;
@@ -144,7 +144,7 @@
             align-items: center;
             //flex-wrap: wrap;
            // height: 500px;
-            padding: 2rem 8%;
+            padding: 2rem 4%;
             background: linear-gradient(rgba(0, 18, 24, 0.9), rgba(0, 18, 24, 0.9)), url("../../assets/materiel.jpeg");
             background-size: cover;
             background-position: center;

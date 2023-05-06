@@ -14,7 +14,7 @@
             background: linear-gradient(90deg, rgba(1,47,60,1) 0%, rgba(2,64,82,1) 35%, rgba(6,36,42,0) 100%);
             padding-block: 2rem;
             padding-bottom: 6rem;
-            padding-inline: 8%;
+            padding-inline: 4%;
             * {
                 color: $__container_color;
             }
@@ -58,7 +58,7 @@
         margin: auto;
         flex-direction: row;
         flex-wrap: wrap;
-        padding-inline: 8%;
+        padding-inline: 4%;
         bottom: 6rem;
         gap: 0;
         max-width: 1420px;
@@ -80,9 +80,11 @@
             }
             &:first-child {
                 background-color: $__container_color;
+                border-radius: 10px 0 0 10px;
             }
             &:last-child {
                 background-color: $__second_color;
+                border-radius: 0 10px 10px 0;
                 * {
                     color: $__container_color;
                 }
