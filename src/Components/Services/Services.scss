@@ -139,16 +139,17 @@
         }
         .product3 {
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             gap: 2rem;
             align-items: center;
             //flex-wrap: wrap;
            // height: 500px;
-            padding: 2rem 4%;
+            padding: 2rem 8%;
             background: linear-gradient(rgba(0, 18, 24, 0.9), rgba(0, 18, 24, 0.9)), url("../../assets/materiel.jpeg");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
+            width: 100%;
             * {
                 color: $__container_color;
             }
@@ -168,6 +169,7 @@
                 }
             }
             .right {
+                max-width: 600px;
                 h2 {
                     margin-bottom: 2rem;
                 }

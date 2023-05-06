@@ -37,7 +37,7 @@ const Contact = () => {
     <div>
         <div className='cont'>
         <div className="hero">
-            <div className="container detais_container">
+            <div className="container2 detais_container">
                 <span className="side_span">contact us</span>
                 <div className="title" id='title'>
                     <h3>Entrez en contact avec nous</h3>

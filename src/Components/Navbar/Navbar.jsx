@@ -22,7 +22,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className='container navbar_container'>
+    <div className=' navbar_container'>
       <div className='top'>
         <div className='left'>
           <Link to={'/'}>
