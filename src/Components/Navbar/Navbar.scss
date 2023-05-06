@@ -30,6 +30,9 @@
                 text-transform: uppercase;
                 color: $__container_color;
                 background-color: $__second_color;
+                &:hover {
+                    background: $__main_color;
+                }
             }
         }
         .menu-icon {
@@ -48,6 +51,9 @@
         a {
             text-transform: uppercase;
             color: $__text_default_color;
+            &:hover {
+                color: $__main_color;
+            }
         }
        }
     }

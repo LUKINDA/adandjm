@@ -25,7 +25,7 @@
         
     }
     .detais_container {
-        background-image: linear-gradient(rgba(0, 18, 24, 0.9), rgba(0, 18, 24, 0.9)),url('../../assets/contact.jpeg') ;
+        background-image: linear-gradient(rgba(0, 18, 24, 0.9), rgba(0, 18, 24, 0.7)),url('../../assets/contact.jpeg') ;
         background-size: cover;
         background-position: center;
     }
@@ -50,6 +50,9 @@
                     font-weight: bold;
                     margin-bottom: 1rem;
                 }
+                // span {
+                //     color: $__main_color;
+                // }
             }
 
             .form {

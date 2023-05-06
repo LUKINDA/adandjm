@@ -1,5 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './About.scss'
+
+import worker from '../../assets/worker.jpeg'
 
 const About = () => {
   return (
@@ -13,7 +16,9 @@ const About = () => {
             créé cette organisation pour répondre aux
             problèmes de changement dans nos industries.
         </p>
-        <button className="more">decouvrire plus</button>
+        <Link to={'/about'}>
+          <button className="more">decouvrire plus</button>
+        </Link>
       </div>
       <div className="right">
         <div className="col_left"></div>
@@ -21,7 +26,9 @@ const About = () => {
             <div className="row1">
                 <h1>a propos de nous</h1>
             </div>
-            <div className="row2"></div>
+            <div className="row2">
+              <img src={worker} alt="" />
+            </div>
         </div>
       </div>
     </div>

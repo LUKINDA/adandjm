@@ -2,6 +2,8 @@ import React from 'react'
 import VerifiedIcon from '@mui/icons-material/Verified';
 import './Whyus.scss'
 
+import worker2 from '../../assets/worker2.jpeg'
+
 const Whyus = () => {
   return (
     <div className='container whyus_container'>
@@ -11,7 +13,9 @@ const Whyus = () => {
             <div className="row1">
                 <h1>pourquoi <br /> nous?</h1>
             </div>
-            <div className="row2"></div>
+            <div className="row2">
+              <img src={worker2} alt="" />
+            </div>
         </div>
       </div>
       <div className="left">

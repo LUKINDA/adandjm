@@ -48,7 +48,7 @@ const Contact = () => {
             <div className="project_container container">
               <div className="title">
                   <h3>contact us</h3>
-                  <h2>ecrivez-nous votre besoin</h2>
+                  <h2>ecrivez-nous vos projects</h2>
               </div>
 
               <div className="project_details content">
@@ -57,7 +57,7 @@ const Contact = () => {
                   <p>
                   Si vous cherchez une entreprise d'ingénierie fiable et compétente pour gérer tous vos besoins divers, ne cherchez plus car vous êtes au bon endroit.
 
-                   <br /> <br /> Notre équipe d'experts est là pour vous aider à répondre à vos besoins, qu'il s'agisse de quelques-uns ou de tous. De plus, si vous avez besoin de conseils ou d'orientation sur un aspect quelconque de votre entreprise, nous offrons des services de consultation d'entreprise pour vous aider à prendre des décisions éclairées.
+                   <br /> <br /> L' équipe d'experts d' <span>AD & JM SARL</span> est là pour vous aider à répondre à vos besoins, qu'il s'agisse de quelques-uns ou de tous. De plus, si vous avez besoin de conseils ou d'orientation sur un aspect quelconque de votre entreprise, nous offrons des services de consultation d'entreprise pour vous aider à prendre des décisions éclairées.
 
                    <br /><br /> N'hésitez pas à nous contacter en remplissant le formulaire avec votre demande, et nous serons ravis de vous entendre et de vous offrir notre assistance.
                   </p>

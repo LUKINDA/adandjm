@@ -55,6 +55,7 @@ const Services = () => {
         <div className="product2">
             <div className="box">
                 <h1>GESTION DES MATERIAUX EN VRAC</h1>
+                <hr />
                 <div className="card">
                     <div className="image">
                         <img src={belts} alt="" />
@@ -69,6 +70,7 @@ const Services = () => {
             </div>
             <div className="box">
                 <h1>TUYAUTERIE ET ACCESSOIRES</h1>
+                <hr />
                 <div className="card">
                     <div className="image">
                         <img src={piping} alt="" />

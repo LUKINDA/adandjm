@@ -60,6 +60,7 @@
                     height: fit-content;
                     .image {
                         overflow: hidden;
+                        border-radius: 10px;
                     }
                     img {
                         width: 300px;
@@ -76,6 +77,7 @@
                         position: relative;
                         bottom: 2rem;
                         padding: 1rem;
+                        border-radius: 10px;
                     }
 
                     &:hover {
@@ -102,7 +104,14 @@
                 flex-direction: column;
     
                 h1 {
-                    margin: 2rem auto;
+                    margin: 2rem 0 1rem 0;
+                }
+                hr {
+                    width: 10rem;
+                    height: 10px;
+                    margin-bottom: 2rem;
+                    background: $__main_color;
+                    border: none;
                 }
                 .card {
                     width: 100%;
@@ -112,6 +121,8 @@
                     gap: 1rem;
                     .image {
                         width: 49%;
+                        overflow: hidden;
+                        border-radius: 10px;
                         img {
                             width: 100%;
                         }
