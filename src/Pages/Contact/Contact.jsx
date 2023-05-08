@@ -14,7 +14,7 @@ const Contact = () => {
   const form = useRef();
 
   const [isSent, setIsSent] = useState(false);
-    const [buttonText, setButtonText] = useState('Envoyer');
+    const [aText, setaText] = useState('Envoyer');
 
     const sendEmail = (e) => {
       e.preventDefault();
@@ -22,11 +22,11 @@ const Contact = () => {
       emailjs.sendForm('service_50mg4ro', 'template_caz87j4', form.current, 'mmrRUOw1rRVK9vGID')
         .then((result) => {
                 setIsSent(true);
-                setButtonText('Envoyé');
+                setaText('Envoyé');
                 setTimeout(() => {
                     form.current.reset();
                     setIsSent(false);
-                    setButtonText('Envoyer');
+                    setaText('Envoyer');
                 }, 3000);
         }, (error) => {
             console.log(error.text);
@@ -88,8 +88,8 @@ const Contact = () => {
                             <i class='bx bxs-message-detail'></i>
                             <textarea name="message" id="" cols="30" rows="7" placeholder='Message' required ></textarea>
                         </div>
-                        <div className="button" id='submit'>
-                            <input type="submit" value={buttonText} style={isSent ? { backgroundColor: 'green' } : {}} />
+                        <div className="a" id='submit'>
+                            <input type="submit" value={aText} style={isSent ? { backgroundColor: 'green' } : {}} />
                         </div>
                     </form>
                 </div>

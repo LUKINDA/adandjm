@@ -16,9 +16,7 @@ const About = () => {
             créé cette organisation pour répondre aux
             problèmes de changement dans nos industries.
         </p>
-        <Link to={'/about'}>
-          <button className="more">decouvrire plus</button>
-        </Link>
+        <a href={'/about'}>decouvrire plus</a>
       </div>
       <div className="right">
         <div className="col_left"></div>

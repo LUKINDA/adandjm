@@ -33,8 +33,12 @@
                 max-width: 600px;
                 line-height: 2rem;
             }
-            button {
+            .explore {
                 margin: 2rem 0;
+                padding: 2rem 0;
+            }
+            a {
+                
                 background: $__main_color;
                 font-size: 1.2em;
                 padding: .5rem 1rem;

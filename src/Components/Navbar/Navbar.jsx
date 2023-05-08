@@ -30,9 +30,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className='right'>
-          <Link to={'/contact'}>
-          <button>Contact us</button>
-          </Link>
+        <a href={'/contact'}>contactez-nous</a>
         </div>
         <div className='menu-icon toggle' onClick={showNavbar}>
           {showNavbar ? <MenuIcon />: <CloseIcon />}

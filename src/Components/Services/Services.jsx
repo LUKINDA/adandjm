@@ -19,7 +19,7 @@ const Services = () => {
             <h1>Explorez nos <span>services</span></h1>
             <p>AD & JM SARL est une entreprise bien établie qui fournit des services de haute qualité à des clients de différents secteurs. L'entreprise s'engage à répondre aux besoins de ses clients en fournissant des solutions sur mesure qui répondent à leurs exigences uniques.</p>
         </div>
-        <button>explorez plus</button>
+        <a>explorez plus</a>
       </div>
       <div className="bottom">
         <div className="product">

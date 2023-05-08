@@ -14,7 +14,9 @@ const Main = () => {
                 projets d’ingénierie, de construction, industriels et miniers en mettant
                 l’accent sur la sécurité, l’environnement, la qualité et la productivité.
             </h3>
-            <button className="expore">voir plus</button>
+            <div className="explore">
+              <a href={'/about'}>voir plus</a>
+            </div>
         </div>
       </div>
       <div className="services">

@@ -95,7 +95,7 @@ const Footer = () => {
                             <div class="subscribe-form">
                                 <form action="#">
                                     <input type="text" placeholder="Email Address"/>
-                                    <button><SendIcon /></button>
+                                    <a><SendIcon /></a>
                                 </form>
                             </div>
                         </div>
