@@ -181,9 +181,7 @@ const About = () => {
       <section className="trusted">
         <h3>votre partenaire de confiance pour les solutions de fabrication et d'ingénierie</h3>
         <h2>Notre équipe <span>professionnelle</span> comprend des ouvriers <span>hautement qualifiés</span> et des auditeurs <span>expérimentés</span> pour apporter une <span>expertise</span> et un soutien précieux à votre entreprise.</h2>
-        <Link to={'/contact'}>
-          <a>Contactez-nous</a>
-        </Link>
+        <a href={'/contact'}>Contactez-nous</a>
       </section>
 
       <section className="content_main" id='politique'>

@@ -47,9 +47,7 @@ const Main = () => {
                 de devenir un leader dans l’introduction des
                 pratiques technologiques innovantes dans
                 l’industrie en offrant la meilleure solution de
-                valeur à nos clients. Nous avons une réputa-
-                tion d’innovation, de service client, de fiabil-
-                ité, de sécurité, de qualité et d’excellence.
+                valeur à nos clients. Nous avons une réputation d’innovation, de service client, de fiabilité, de sécurité, de qualité et d’excellence.
               </p>
             </div>
         </div>

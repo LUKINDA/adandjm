@@ -181,7 +181,7 @@
         padding: .5rem 1rem;
         border: none;
         border-radius: 10px;
-        font-size: 1.5em;
+        //font-size: 1em;
         &:hover {
             background: $__second_color;
             cursor: pointer;
@@ -315,7 +315,7 @@
                         border-radius: 10px 10px 0 0;
                     }
                     .right {
-                        border-radius: 0 0 10px 10pxx;
+                        border-radius: 0 0 10px 10px;
                     }
                 }
             }

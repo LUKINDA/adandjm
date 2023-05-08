@@ -52,8 +52,10 @@
         a {
             text-transform: uppercase;
             color: $__text_default_color;
+            
             &:hover {
                 color: $__main_color;
+                background: transparent;
             }
         }
        }
