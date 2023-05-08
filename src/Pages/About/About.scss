@@ -109,6 +109,17 @@
             z-index: -1;
         }
     }
+    .right2 {
+        
+        height: 350px;
+        overflow: hidden;
+        border-radius: 10px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
 }
 
 .award {
@@ -194,6 +205,8 @@
             .left {
                 height: 15rem;
                 width: 50%;
+                border-radius: 10px 0 0 10px;
+                overflow: hidden;
                 img {
                     width: 100%;
                     height: 100%;
@@ -210,6 +223,7 @@
                 padding: 1rem;
                 padding-left: 2rem;
                 width: 50%;
+                border-radius: 0 10px 10px 0;
                 hr {
                     width: 100px;
                     height: 10px;
@@ -225,17 +239,29 @@
                 }
                 ul {
                     li {
-                        text-transform: uppercase;
+                        text-transform: capitalize !important;
+                        list-style: disc;
                     }
                 }
             }
             &:nth-child(even) {
                 flex-direction: row-reverse;
+                .left {
+                    border-radius: 0 10px 10px 0;
+                }
+                .right {
+                    border-radius:  10px 0 0 10px;
+                }
             }
         }
     }
 }
 
+#politique {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
 @media screen and (max-width: 1000px) {
     .award {
         grid-template-columns: repeat(2, 1fr);
@@ -260,6 +286,16 @@
     }
 }
 
+@media screen and (max-width: 800px) {
+    #politique {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3rem;
+        .left {
+            max-width: 100%;
+        }
+    }
+}
+
 @media screen and (max-width: 600px) {
     .services {
         .box {
@@ -267,12 +303,20 @@
                 flex-direction: column;
                 .left {
                     width: 100%;
+                    border-radius: 10px 10px 0 0;
                 }
                 .right {
                     width: 100%;
+                    border-radius: 0 0 10px 10px;
                 }
                 &:nth-child(even) {
                     flex-direction: column;
+                    .left {
+                        border-radius: 10px 10px 0 0;
+                    }
+                    .right {
+                        border-radius: 0 0 10px 10px;
+                    }
                 }
             }
         }

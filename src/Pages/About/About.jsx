@@ -31,12 +31,9 @@ const About = () => {
           <h2>AD & JM SARL Offre des services professionel</h2>
           <hr />
           <p>
-            AD & JM SARL fournit des technolo-
-            gies et des solutions innovantes aux
-            projets d’ingénierie, de construc-
-            tion, industriels et miniers en mettant
-            l’accent sur la sécurité, l’environne-
-            ment, la qualité et la productivité.
+            AD & JM SARL fournit des technologies et des solutions innovantes aux
+            projets d’ingénierie, de construction, industriels et miniers en mettant
+            l’accent sur la sécurité, l’environnement, la qualité et la productivité.
 
             <br /><br />
             L’entreprise a vu le jour afin de répondre aux demandes dans les secteurs de l’ingénierie, de la construction, de l’industrie et des mines. En conséquence, les membres fondateurs ont créé cette organisation pour répondre aux problèmes de changement dans nos industries.
@@ -153,9 +150,7 @@ const About = () => {
               <ul>
                   <li>cement et chaux</li>
                   <li>Articles HDPE et Thermoplastique</li>
-                  <li>Fibre de verre structurelle, techniquement con-
-nue sous le nom de fibre armé de verre (GRP),
-suivant les spécifications du client.</li>
+                  <li>Fibre de verre structurelle, techniquement connue sous le nom de fibre armé de verre (GRP), suivant les spécifications du client.</li>
                   <li>Poutres en I en fibre de verre</li>
                   <li>Fibre de verre</li>
                   <li>Couvertures en fibre de verre</li>
@@ -188,6 +183,25 @@ suivant les spécifications du client.</li>
         <Link to={'/contact'}>
           <button>Contactez-nous</button>
         </Link>
+      </section>
+
+      <section className="content_main" id='politique'>
+        <div className="right2">
+          <img src={electric} alt="" />
+        </div>
+        <div className="left">
+          <h2>DÉCLARATION DE POLITIQUE DE QUALITÉ</h2>
+          <hr />
+          <p>
+            AD & JM fournit des services à de nombreux secteurs de l’industrie avec des produits, des équipements et des consommables de haute qualité et rentables pour tous les types de projets.
+            <br /> <br /> 
+            La direction et le personnel d’AD & JM s’efforcent d’atteindre et de maintenir le système de gestion de qualité le plus élevé ainsi que les exigences légales applicables.
+            Nous nous engageons à améliorer continuellement nos systèmes de gestion et la qualité de nos produits et services afin de fournir
+            constamment des services de qualité qui répondent aux exigences des clients.
+            Le système de gestion de la qualité AD & JM est basé sur ISO9001
+          </p>
+        </div>
+        
       </section>
     </div>
   )
