@@ -15,6 +15,7 @@ import pumps from '../../assets/pumps.jpg'
 import belt from '../../assets/belt.jpg'
 import civil from '../../assets/civil.jpeg'
 import construction from '../../assets/construction.jpg'
+import politic from '../../assets/politic.jpeg'
 
 const About = () => {
   return (
@@ -187,7 +188,7 @@ const About = () => {
 
       <section className="content_main" id='politique'>
         <div className="right2">
-          <img src={electric} alt="" />
+          <img src={politic} alt="" />
         </div>
         <div className="left">
           <h2>DÉCLARATION DE POLITIQUE DE QUALITÉ</h2>
