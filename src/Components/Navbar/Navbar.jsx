@@ -39,7 +39,7 @@ const Navbar = () => {
       <div className='bottom manu' id='menu' ref={navRef}>
         <ul>
           <li>
-            <a href='/#hero'>Home</a>
+            <a href='/#hero'>Acceuil</a>
           </li>
           <li>
             <a href='/#about'>A propos</a>
