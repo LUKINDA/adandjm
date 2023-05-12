@@ -8,6 +8,7 @@ import graphite from '../../assets/graphite.jpeg'
 
 import belts from '../../assets/belt.jpg'
 import piping from '../../assets/piping.jpeg'
+import cleaning from '../../assets/netoy.jpeg'
 
 import construction from '../../assets/construction.jpg'
 
@@ -54,7 +55,7 @@ const Services = () => {
 
         <div className="product2">
             <div className="box">
-                <h1>GESTION DES MATERIAUX EN VRAC</h1>
+                <h2>GESTION DES MATERIAUX EN VRAC</h2>
                 <hr />
                 <div className="card">
                     <div className="image">
@@ -69,7 +70,7 @@ const Services = () => {
                 </div>
             </div>
             <div className="box">
-                <h1>TUYAUTERIE ET ACCESSOIRES</h1>
+                <h2>TUYAUTERIE ET ACCESSOIRES</h2>
                 <hr />
                 <div className="card">
                     <div className="image">
@@ -79,6 +80,21 @@ const Services = () => {
                         <h3>FOURNITURE ET INSTALLATION</h3>
                         <p>
                         AD & JM est pleinement conscients qu’un équipement décent pour la gestion des matériaux en vrac réduira les coûts globaux dans la production, fabrication, et la distribution.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div className="box">
+                <h2>Les produits de nettoyage</h2>
+                <hr />
+                <div className="card">
+                    <div className="image">
+                        <img src={cleaning} alt="" />
+                    </div>
+                    <div className="desc">
+                        <h3>FOURNITURE DES PRODUITS</h3>
+                        <p>
+                        AD & JM fourniture d'une large gamme de produits de nettoyage généraux. Leurs offres de produits comprennent des nettoyants multi-usages, des désinfectants, des nettoyants pour sols, des nettoyants pour vitres, et bien plus encore.
                         </p>
                     </div>
                 </div>

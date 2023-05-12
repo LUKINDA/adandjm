@@ -159,13 +159,16 @@ ul {
     ul {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         gap: 1rem;
         margin: auto;
         width: fit-content;
     }
 }
 .footer-menu li {
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
   //margin-left: 20px;
 }
 .footer-menu li:hover a{
