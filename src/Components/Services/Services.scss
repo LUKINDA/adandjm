@@ -99,10 +99,14 @@
             justify-content: center;
             gap: 1rem;
             flex-wrap: wrap;
+            
 
             .box {
+                flex: 300px 1 1;
                 margin: 2rem 0;
-                max-width: 500px;
+                width: 100%;
+                min-width: 300px;
+                //max-width: 500px;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
@@ -120,7 +124,7 @@
                     border: none;
                 }
                 .card {
-                    width: 100%;
+                    width: auto;
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
@@ -256,3 +260,4 @@
         }
     }
 }
+
