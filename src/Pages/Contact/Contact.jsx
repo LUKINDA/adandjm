@@ -72,7 +72,7 @@ const Contact = () => {
                             </div>
                             <div className="input">
                                 <i class='bx bxs-envelope'></i>
-                                <input type="email" name="user_email" id="" placeholder='Email address' required />
+                                <input type="email" name="user_email" id="" placeholder='Email addresse' required />
                             </div>
                             <div className="input">
                                 <i class='bx bxs-timer'></i>

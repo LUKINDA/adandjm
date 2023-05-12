@@ -35,7 +35,7 @@ const Contact = () => {
        <div className="left">
             <h2>Nos coordonnées</h2>
             <div className="content">
-                <h3>Notre Address</h3>
+                <h3>Notre addresse</h3>
                 <span>17, AV: Nyota, Q/Golf Lubumbashi - RDC</span>
             </div>
             <div className="content">
@@ -49,7 +49,7 @@ const Contact = () => {
             </div>
             <div className="content">
                 <h3>MR MOND Rowland</h3>
-                <span>+243 859045162</span>
+                <span>+243 859 045 162</span>
                 <span>rowland.mond@adandjm.com</span>
             </div>
        </div>
@@ -58,10 +58,10 @@ const Contact = () => {
             <h2>Nous contacter</h2>
             <div className="top">
                 <input type="text" name="user_name" id="" placeholder='Nom' />
-                <input type="text" name="user_email" id="" placeholder='Address Email'/>
+                <input type="text" name="user_email" id="" placeholder='addressee Email'/>
             </div>
             <div className="middle">
-                <input type="text" name="user_subject" id="" placeholder='Subject'/>
+                <input type="text" name="user_subject" id="" placeholder='Sujet'/>
             </div>
             <div className="bottom">
                 <textarea name="message" id="" cols="30" rows="7" placeholder='Message'></textarea>
